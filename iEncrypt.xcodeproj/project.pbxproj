@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946B75D2165F260600782E2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946B75D1165F260600782E2C /* Cocoa.framework */; };
+		946B75DC165F260600782E2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 946B75DA165F260600782E2C /* InfoPlist.strings */; };
+		946B75DE165F260600782E2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 946B75DD165F260600782E2C /* main.m */; };
+		946B75E2165F260600782E2C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 946B75E0165F260600782E2C /* Credits.rtf */; };
+		946B75E5165F260700782E2C /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 946B75E4165F260700782E2C /* MyDocument.m */; };
+		946B75E8165F260700782E2C /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B75E6165F260700782E2C /* MyDocument.xib */; };
+		946B75EB165F260700782E2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B75E9165F260700782E2C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		946B75CD165F260600782E2C /* iEncrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEncrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946B75D1165F260600782E2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		946B75D4165F260600782E2C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		946B75D5165F260600782E2C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		946B75D6165F260600782E2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		946B75D9165F260600782E2C /* iEncrypt-Info.plist */ = {isa = PBXFileReference; path = "iEncrypt-Info.plist"; sourceTree = "<group>"; };
+		946B75DB165F260600782E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		946B75DD165F260600782E2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		946B75DF165F260600782E2C /* iEncrypt-Prefix.pch */ = {isa = PBXFileReference; path = "iEncrypt-Prefix.pch"; sourceTree = "<group>"; };
+		946B75E1165F260600782E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		946B75E3165F260700782E2C /* MyDocument.h */ = {isa = PBXFileReference; path = MyDocument.h; sourceTree = "<group>"; };
+		946B75E4165F260700782E2C /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		946B75E7165F260700782E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		946B75EA165F260700782E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946B75CA165F260600782E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946B75D2165F260600782E2C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946B75C2165F260600782E2C = {
+			isa = PBXGroup;
+			children = (
+				946B75D7165F260600782E2C /* iEncrypt */,
+				946B75D0165F260600782E2C /* Frameworks */,
+				946B75CE165F260600782E2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		946B75CE165F260600782E2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946B75CD165F260600782E2C /* iEncrypt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946B75D0165F260600782E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946B75D1165F260600782E2C /* Cocoa.framework */,
+				946B75D3165F260600782E2C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		946B75D3165F260600782E2C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946B75D4165F260600782E2C /* AppKit.framework */,
+				946B75D5165F260600782E2C /* CoreData.framework */,
+				946B75D6165F260600782E2C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		946B75D7165F260600782E2C /* iEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				946B75E3165F260700782E2C /* MyDocument.h */,
+				946B75E4165F260700782E2C /* MyDocument.m */,
+				946B75E6165F260700782E2C /* MyDocument.xib */,
+				946B75E9165F260700782E2C /* MainMenu.xib */,
+				946B75D8165F260600782E2C /* Supporting Files */,
+			);
+			path = iEncrypt;
+			sourceTree = "<group>";
+		};
+		946B75D8165F260600782E2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				946B75D9165F260600782E2C /* iEncrypt-Info.plist */,
+				946B75DA165F260600782E2C /* InfoPlist.strings */,
+				946B75DD165F260600782E2C /* main.m */,
+				946B75DF165F260600782E2C /* iEncrypt-Prefix.pch */,
+				946B75E0165F260600782E2C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946B75CC165F260600782E2C /* iEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946B75EE165F260700782E2C /* Build configuration list for PBXNativeTarget "iEncrypt" */;
+			buildPhases = (
+				946B75C9165F260600782E2C /* Sources */,
+				946B75CA165F260600782E2C /* Frameworks */,
+				946B75CB165F260600782E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iEncrypt;
+			productName = iEncrypt;
+			productReference = 946B75CD165F260600782E2C /* iEncrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946B75C4165F260600782E2C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 946B75C7165F260600782E2C /* Build configuration list for PBXProject "iEncrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 946B75C2165F260600782E2C;
+			productRefGroup = 946B75CE165F260600782E2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946B75CC165F260600782E2C /* iEncrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946B75CB165F260600782E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946B75DC165F260600782E2C /* InfoPlist.strings in Resources */,
+				946B75E2165F260600782E2C /* Credits.rtf in Resources */,
+				946B75E8165F260700782E2C /* MyDocument.xib in Resources */,
+				946B75EB165F260700782E2C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946B75C9165F260600782E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946B75DE165F260600782E2C /* main.m in Sources */,
+				946B75E5165F260700782E2C /* MyDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		946B75DA165F260600782E2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946B75DB165F260600782E2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		946B75E0165F260600782E2C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946B75E1165F260600782E2C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		946B75E6165F260700782E2C /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946B75E7165F260700782E2C /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		946B75E9165F260700782E2C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946B75EA165F260700782E2C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946B75EC165F260700782E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		946B75ED165F260700782E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		946B75EF165F260700782E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iEncrypt/iEncrypt-Prefix.pch";
+				INFOPLIST_FILE = "iEncrypt/iEncrypt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		946B75F0165F260700782E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iEncrypt/iEncrypt-Prefix.pch";
+				INFOPLIST_FILE = "iEncrypt/iEncrypt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946B75C7165F260600782E2C /* Build configuration list for PBXProject "iEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946B75EC165F260700782E2C /* Debug */,
+				946B75ED165F260700782E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946B75EE165F260700782E2C /* Build configuration list for PBXNativeTarget "iEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946B75EF165F260700782E2C /* Debug */,
+				946B75F0165F260700782E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946B75C4165F260600782E2C /* Project object */;
+}
